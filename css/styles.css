@@ -1,0 +1,230 @@
+body {
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #730101;
+}
+
+p {
+  margin: 0;
+}
+
+/* Set Background Image */
+.header, #blog, #footer {
+  background-image: url(../images/background.jpg);
+}
+
+#title, #about, #contact {
+  background-image: url(../images/crumple.png);
+}
+/* Title Section */
+.container-fluid {
+  padding: 0;
+}
+
+/* Navigation Bar Section */
+/* Collapse Icon Bar Color */
+.fas {
+  color: #AF1427;
+  border-color: #AF1427;
+}
+
+/* Collapse Icon Border Color */
+.navbar-light .navbar-toggler {
+  border-color: #AF1427;
+  border-width: 2px;
+  outline: none;
+}
+
+/* Nav Bar Text Color */
+.navbar-light .navbar-nav .nav-link {
+  color: #AF1427;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 0 0.8rem;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+  color: #730101;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+}
+
+.logo-image {
+  width: 200px;
+}
+
+/* Header Section */
+
+.header-image {
+  text-align: center;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 5% 0;
+}
+
+/* About Section */
+.about-box {
+  margin-bottom: 20px;
+}
+
+.about-row {
+  padding: 5%;
+  font-size: 1.1rem;
+}
+
+.head {
+  color: #AF1427;
+}
+
+/* Blog Section */
+#blog {
+  color: white;
+  padding: 3% 0;
+  text-align: center;
+}
+
+.blog-row {
+  padding: 2% 5%;
+}
+
+.blog-text {
+  text-align: left;
+  margin: auto;
+}
+
+.blog-title {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.desc {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.posts {
+  margin-top: 3%;
+}
+
+/* Contact Section */
+#contact {
+  padding: 5% 0;
+}
+
+.address {
+  text-align: right;
+}
+
+.contact-box {
+  padding: 0 30px;
+}
+
+.contact-info {
+  padding: 5% 0;
+}
+
+.contact-title {
+  color: #AF1427;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.contactButton {
+	background-color: #AF1427;
+	border: 2px solid #AF1427;
+	display: inline-block;
+	cursor:pointer;
+	color: #ffffff;
+	font-size:17px;
+	padding:14px 31px;
+}
+
+.contactButton:hover {
+	background-color: #AF1427;
+}
+
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
+
+.email {
+  color: #AF1427;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  color: #dbdbdb;
+  padding: 30px;
+}
+
+.social {
+  font-size: 20px;
+  color: white;
+  margin: 20px 5px;
+}
+
+.social:hover {
+  color: grey;
+}
+
+input[type=text], input[type=email], textarea{
+  border: 2px solid;
+  border-color: #AF1427;
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 1530px) {
+  .header-image {
+    width: 1224px;
+  }
+  .row {
+    margin: auto;
+    width: 1377px;
+  }
+}
+
+@media (max-width: 767px) {
+  .row {
+    margin: auto;
+    width: 80%;
+  }
+
+  .change-order {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .blog-text {
+    margin: 2% auto;
+  }
+
+  .contact-form {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-image {
+    width: 95%;
+  }
+}
